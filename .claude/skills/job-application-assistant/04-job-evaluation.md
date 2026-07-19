@@ -20,9 +20,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Multi-agent systems (LangGraph / LangChain / ReAct / MCP), LLM fine-tuning (LoRA / DPO / SFT), AIOps and ML engineering, time-series anomaly detection (XGBoost / LSTM), MLOps / platform engineering (Kubernetes / Docker / Kafka / FastAPI), RAG systems, prompt engineering
+**Moderate match areas:** General data science, statistical modelling, time-series forecasting, operations research / MILP optimisation, Python data analysis
+**Weak match areas:** Pure analytics / BI, frontend engineering, product management, academic NLP research, computer vision (beyond basic CNN)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +34,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** AI / Agent platform engineering, AIOps (log and time-series anomaly detection), LLM fine-tuning and deployment, enterprise ML microservices, shipping / logistics domain AI
+**Moderate:** Data engineering, supply chain optimisation, embedded systems / control engineering (early career)
+**Entry-level:** AI product management, ML research (academic), data engineering team lead
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -67,19 +67,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Stay in AI engineering; grow into a technical lead / team lead role within 2–3 years
+- Potentially pivot into banking, insurance, or quantitative finance (AI/ML applications)
+- Build AI systems that reach production and generate measurable business impact
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: designing and building AI systems end-to-end; multi-agent orchestration; LLM fine-tuning; seeing a system go to production
+- Tasks that drain: administrative work; maintenance-heavy roles; non-technical coordination without building anything
+- Non-task factors: leadership style (autonomy preferred), company size (mid-to-large), culture (builder culture over service delivery)
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Employed — not under pressure; can be selective
+- **Flexibility**: Based in Hong Kong S.A.R.; open to Singapore and mainland China (Shanghai / Shenzhen / Beijing); no other relocation
+- **Professional development**: Looking for roles that offer a visible path to technical leadership
 
 ### 6. Salary Benchmark (Optional)
 

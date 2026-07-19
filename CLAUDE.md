@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for John Hui
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for John Hui, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,70 +10,76 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** John Hui
+- **Location:** Hong Kong S.A.R.
+- **Languages:** Cantonese (native), English (fluent), Mandarin (fluent)
+- **CV language:** English (HK and international roles); Simplified Chinese (mainland China roles)
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed — Associate Data Scientist at OOCL (actively seeking new opportunities)
+- **LinkedIn headline:** "AI Engineer | Multi-agent Systems | LLM Fine-tuning | AIOps"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MSc in Data Science and Analytics** (Sep 2020 – Nov 2022) - The Hong Kong Polytechnic University (QS 54)
+  - Topics: Deep Learning, AI, Optimization Methods, Statistical Data Mining, High Dimensional Data Analysis, Big Data Computing, Data Structure and Database Design
+- **Bachelor's in Engineering** (Sep 2013 – Jun 2017) - University of Toronto (QS 29)
+  - Topics: Calculus, Statistics, Linear Algebra, Control Theory, Python Programming, Differential Equations, Algorithm and Data Structure
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Associate Data Scientist** (Sep 2022 – Present) - **Orient Overseas Container Line (OOCL)** (Hong Kong S.A.R.)
+  - Enterprise Agent Harness SDK: designed platform architecture enabling 20+ agent projects in 2 months; P1 incident resolution −20% (7.8h → 6.2h), 200+ incidents/month
+  - Multi-agent LangGraph workflow for MySQL SRE root cause analysis (ReAct, Reflection, Memory)
+  - LSTM log anomaly detection for 7,000+ CISCO devices (82% recall); RAG Q&A with LoRA/DPO fine-tuned Qwen2.5-7B
+  - XGBoost microservice across 750 MySQL DBs, 3,300 K8s services, 2,600 OS machines
+  - GPT-3.5 XML→Java code translation (20,000 scripts, 70%+ success, 16,000h → 600h, 63% efficiency gain)
+  - LGBM empty container forecasting (40% WMAPE, 8-week global forecast)
+
+- **Data Engineer** (Aug 2021 – Sep 2022) - **TCL Corporate Research (HK) Ltd.** (Hong Kong S.A.R.)
+  - MILP for 1,600+ materials across 20+ factories (order fulfillment +6%, delay −5.8 days, 30s optimal solution)
+  - Integer programming + RL research (CPLEX + PPO); multi-agent AGV path planning (spatio-temporal A*, Gazebo)
+
+- **Engineer II** (May 2018 – Jul 2021) - **TDK SAE Magnetics (HK) Ltd.** (Hong Kong S.A.R.)
+  - Control theory algorithms in C on DSP chips; Python data collection on ARM Linux; hardware driver development
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Multi-agent systems (LangGraph / LangChain / ReAct / MCP / A2A / AG-UI), LLM fine-tuning (LoRA / DPO / SFT), AIOps and ML engineering
+- **Secondary:** MLOps / platform engineering (Kubernetes / Docker / Kafka / FastAPI), time-series anomaly detection (XGBoost / LSTM), RAG systems, prompt engineering
+- **Domain:** AI/Agent platform engineering, AIOps, shipping/logistics AI, operations research (MILP)
+- **Software:** Python, PyTorch, LangGraph, LangChain, Kubernetes, Docker, Kafka, Jenkins, Redis, FAISS, SQL
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Builder mentality** — energised by designing and shipping AI systems end-to-end; loses energy quickly on administrative or non-technical work
+- **Depth-first thinker** — prefers going deep on hard technical problems rather than broad shallow delivery
+- **Emerging leader** — looking to grow into a team lead or technical lead role within 2–3 years
+- **Strengths:** End-to-end AI system delivery, bridging research and production, full-stack ML engineering
+- **Growth areas:** Leadership and people management (target for next career stage)
+- **Thrives in:** Larger, stable organisations with real production AI problems; teams that build new systems rather than maintain old ones
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building AI systems end-to-end (from prototype to production)
+- Multi-agent orchestration and LLM infrastructure at scale
+- Growing into a technical lead role and shaping AI team direction
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Technology / AI:** Large tech companies with serious AI engineering teams in Hong Kong, Singapore, or mainland China
+- **Banking / Insurance / Quantitative finance:** Banks, insurers, and quant/hedge fund firms applying AI/ML to financial problems (trading, risk, fraud, operations)
+- **Large enterprises:** Any large company with a mature, production-focused AI/data team
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Outsourcing / IT services companies — no
+- Contract positions — no (permanent roles only)
+- Small companies — no (prefer mid-size to large organisations)
+- Requires relocation outside Hong Kong, mainland China, or Singapore — no
+- Primarily administrative or non-technical work — no
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

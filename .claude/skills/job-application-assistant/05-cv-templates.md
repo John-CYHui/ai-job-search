@@ -111,12 +111,22 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+<!-- Phrasing references extracted by /setup Path A. Every factual claim must be verified against 01-candidate-profile.md before use in a live application. A past tailored draft does not vouch for its own accuracy. -->
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI Engineer / Agent Engineering roles:**
+> AI engineer specialising in enterprise agent framework design and production-grade Agent systems. Led the design and delivery of an Enterprise Agent Harness SDK — abstracting the agent loop, tool registry, credential isolation, and context engineering pipeline — enabling 20+ agent projects to go live within two months. End-to-end delivery experience with LLM-driven multi-agent production systems in AIOps, covering 750 MySQL databases and 3,300 Kubernetes microservices.
+
+*[Used for: OOCL internal framing (zh-cn CV) — verify all claims against 01-candidate-profile.md before use]*
+
+**For Data Scientist / GenAI Platform roles:**
+> Data scientist specialising in enterprise-scale GenAI and LLM productionisation. Led end-to-end delivery of an enterprise agent platform and AIOps system — translating AI capabilities from prototype to production infrastructure — accelerating 20+ internal agent projects and reducing P1 incident resolution time by 20%. Hands-on experience across the full ML stack: LLM fine-tuning (LoRA/DPO), multi-agent orchestration, time-series anomaly detection, and MLOps (Kubernetes/Kafka/Docker).
+
+*[Used for: DeepSeek CV framing — verify all claims against 01-candidate-profile.md before use]*
+
+**For MLOps / Platform Engineering roles:**
+> ML engineer with a strong platform engineering foundation — building production ML services (XGBoost microservices, LSTM-based log detectors, LLM fine-tuning pipelines) and the orchestration infrastructure that runs them (Kubernetes, Kafka, Docker, FastAPI, Langfuse/OTLP). Track record of taking AI systems from prototype to stable production, with measurable business outcomes.
+
+*[Synthesised from profile by /setup — draft only, not extracted from a past application]*
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

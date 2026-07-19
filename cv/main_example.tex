@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - John Hui
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs with /apply.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -11,8 +10,7 @@
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,18 +22,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={John Hui - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{John}{Hui}
+\address{Hong Kong S.A.R.}{}{}
+\phone[mobile]{+852 9794 4075}
+\email{johnsonhcy@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/john-hui-51abb2105/}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{AI engineer specialising in enterprise multi-agent systems and LLM productionisation. At OOCL, led the design of an Enterprise Agent Harness SDK enabling 20+ agent projects within two months, and delivered a multi-agent AIOps platform reducing P1 incident resolution time by 20\%. Hands-on across the full stack: LLM fine-tuning (LoRA/DPO), multi-agent orchestration (LangGraph/MCP), time-series anomaly detection, and MLOps (Kubernetes/Kafka/Docker).}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Agent AI \& Orchestration}: LangGraph, LangChain, ReAct, MCP, A2A, AG-UI, Multi-agent routing, DeepAgents/DeerFlow, FAISS, Redis
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{LLM / GenAI}: LoRA, DPO, SFT, RAG, Prompt Engineering, Few-Shot Learning, OpenAI API, Hugging Face, Qwen2.5, Llama Factory, Ollama, AnythingLLM
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Machine Learning \& Deep Learning}: XGBoost, LightGBM, LSTM, Transformer, CNN, PyTorch, Scikit-learn; Q-learning, Policy Gradient (RL); MILP, Branch \& Cut (OR)
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{MLOps \& Platform Engineering}: Docker, Kubernetes, Kafka, S3, FastAPI, Flask, Jenkins, Langfuse/OTLP, Chaos Mesh, CI pipelines, health probes
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Programming \& Data}: Python, C, SQL, Pandas, Feature Engineering, Time-Series Analysis, Statistical Modelling
 
 \end{itemize}
 
@@ -76,32 +75,33 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2022--Present}{Associate Data Scientist}{Orient Overseas Container Line (OOCL)}{Hong Kong S.A.R.}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Designed Enterprise Agent Harness SDK (RuntimePort abstraction, Deferred Tool Registry for 100+ tools, per-agent credential isolation via local reverse HTTP proxy, Config-driven zero-code agent creation); platform supported 20+ agent projects within two months of launch
+    \item Led multi-agent AIOps root cause analysis platform (Supervisor-Worker routing, Durable Incident Runtime, Langfuse/OTLP distributed tracing, Chaos Mesh); reduced P1 incident resolution 7.8h $\rightarrow$ 6.2h ($-$20\%), handling 200+ incidents/month across 750 MySQL databases and 3,300 Kubernetes microservices
+    \item Deployed LSTM log anomaly detection across 7,000+ CISCO network devices (82\% recall, 75--78\% precision in production); built RAG Q\&A system with LoRA and DPO fine-tuned Qwen2.5-7B via Llama Factory + Ollama/AnythingLLM
+    \item Deployed XGBoost microservice for time-series anomaly detection across 750 MySQL DBs, 3,300 K8s microservices, and 2,600 OS machines; full Kafka/S3/Docker/Kubernetes data pipeline
+    \item Built GPT-3.5 XML$\rightarrow$Java code translation pipeline for 20,000+ TIBCO scripts; reduced translation from 16,000h to 600h (70\%+ success rate, 63\% efficiency gain)
+    \item Built LGBM model for 8-week global empty container demand forecasting; achieved 40\% WMAPE via 35-feature engineering and ablation study
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2021--2022}{Data Engineer}{TCL Corporate Research (HK) Ltd.}{Hong Kong S.A.R.}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Used MILP to model raw material supply/demand for 1,600+ materials across 20+ processing plants; order fulfillment +6\%, average delay $-$5.8 days, optimal solution within 30s (model: 170k+ variables, 10k+ constraints)
+    \item Researched integer programming combined with RL; reproduced paper using CPLEX + PPO algorithm to improve cutting plane selection
+    \item Contributed to multi-agent AGV path planning project at Huaxing Optoelectronics using spatio-temporal A* algorithm; performance testing and simulation for 20 vehicles in Gazebo
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2018--2021}{Engineer II}{TDK SAE Magnetics (HK) Ltd.}{Hong Kong S.A.R.}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Implemented control theory algorithms in C on DSP chips to optimise magnetic head track-adhesion accuracy
+    \item Collected and analysed magnetic head movement data using Python on ARM Linux; developed hardware drivers
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +114,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2020--2022}{MSc in Data Science and Analytics}{The Hong Kong Polytechnic University (QS 54)}{Hong Kong S.A.R.}{}{\vspace{1pt}
+Coursework: Deep Learning, Introduction to AI, Optimization Methods, Statistical Data Mining, High Dimensional Data Analysis, Big Data Computing, Data Structure and Database Design.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2013--2017}{Bachelor's in Engineering}{University of Toronto (QS 29)}{Toronto, Canada}{}{\vspace{1pt}
+Coursework: Calculus, Statistics, Linear Algebra, Control Theory, Python Programming, Differential Equations, Algorithm and Data Structure.
 }}
 
 \end{itemize}
@@ -133,27 +133,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Cantonese (native), English (fluent), Mandarin (fluent).
 \end{itemize}
 
 % ============================================================

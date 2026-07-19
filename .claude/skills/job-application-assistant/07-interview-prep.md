@@ -12,32 +12,67 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+*Stubs extracted by /setup Path A from CV achievements. Fill in the S/T/A/R details before using in interviews — you know the full context, the CV only has the headline.*
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Enterprise Agent Harness SDK (Platform Leadership / Systems Architecture)
+**Source:** Chinese CVs — OOCL (2026)
+**What happened:** Designed and built an enterprise agent platform SDK; 20+ internal agent projects went live within 2 months of launch
+**Why it matters:** "Tell me about a platform or infrastructure project you led", "How do you scale AI systems?", "Most complex technical project you've owned"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+---
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### AIOps Multi-Agent Root Cause Analysis (Business Impact / End-to-End Delivery)
+**Source:** Both CVs — OOCL (2025–2026)
+**What happened:** Led multi-agent orchestration system for SRE root cause analysis; P1 incident resolution time 7.8h → 6.2h (−20%), 200+ incidents/month
+**Why it matters:** "Most impactful project you've delivered", "Example of measurable business outcome from AI", "Taking a system from prototype to production"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+---
+
+### AIOps Network Log Anomaly Detection (ML Engineering / LLM Fine-tuning)
+**Source:** English CV — OOCL (2024–2025)
+**What happened:** Built LSTM + FAISS anomaly detector for 7,000 Cisco devices (82% recall, 75–78% precision); fine-tuned Qwen2.5-7B with LoRA/DPO; built RAG Q&A system with Ollama + AnythingLLM
+**Why it matters:** "LLM fine-tuning experience", "Production ML system at scale", "Unsupervised learning"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+---
+
+### GPT Code Translation Project (Applied LLM / Automation)
+**Source:** English CV — OOCL (Apr–Oct 2023)
+**What happened:** GPT-3.5 pipeline translating 20,000+ TIBCO XML scripts to Java; reduced from 16,000h to 600h (63% efficiency gain, 70%+ success rate)
+**Why it matters:** "LLM applied to a real business problem", "Prompt engineering in practice", "Automation / efficiency story"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+---
+
+### MILP Material Planning at TCL (Optimisation / Cross-functional Impact)
+**Source:** Chinese CV — TCL Corporate Research (2021–2022)
+**What happened:** MILP model for 1,600+ materials across 20+ factories; order fulfillment +6%, average delay −5.8 days, optimal solution within 30s
+**Why it matters:** "Optimisation or OR experience", "Non-ML AI methods", "Cross-functional business impact beyond your team"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 
